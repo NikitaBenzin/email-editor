@@ -1,8 +1,7 @@
-
-export const applyStyle = (type, selectedText) => {
+export const applyStyle = (style, selectedText) => {
   let formattedText = selectedText
 
-  switch (type) {
+  switch (style) {
     case 'bold':
       formattedText = '<b>' + selectedText + '</b>'
       break
@@ -14,7 +13,8 @@ export const applyStyle = (type, selectedText) => {
       break
     default:
       formattedText = selectedText
-  }
+      break
 
+  }
   return formattedText
 }
