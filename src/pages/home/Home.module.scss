@@ -1,0 +1,10 @@
+#root {
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.home {
+  display: grid;
+  grid-template-columns: 1fr 0.5fr;
+  gap: 0.5rem;
+}

@@ -1,0 +1,15 @@
+.emailList {
+  margin-right: 0.6em;
+  .list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    .listItem {
+      background-color: rgba(54, 54, 54, 0.849);
+      padding: 1.2rem;
+      margin-bottom: 1rem;
+      font-size: 12px;
+    }
+  }
+}
